@@ -46,8 +46,7 @@ function AboutMe() {
             
             "
           </p>
-          <Link to="/Cavaari Taylor(Soft Eng Resume).pdf" target="_blank" rel="noopener noreferrer" className="resume-button">Resume</Link>
-
+          <Link to={`${process.env.PUBLIC_URL}/Cavaari Taylor(Soft Eng Resume).pdf`} target="_blank" rel="noopener noreferrer" className="resume-button">Resume</Link>
         </div>
       </div>
       <Footer />
