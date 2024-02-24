@@ -7,15 +7,15 @@ const projects = [
   {
     id: 1,
     title: 'KML Parser',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    technologies: 'React, Node.js, HTML, CSS',
+    description: 'Parsed KML files using a combination of C and JavaScript',
+    technologies: 'C, HTML, CSS, JavaScript',
     link: 'https://example.com/project1',
   },
   {
     id: 2,
     title: 'Covid-19 Statistical Analysis',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    technologies: 'React, Node.js, HTML, CSS',
+    description: 'Reviewed, processed, analyzed, and plotted COVID-19 data ',
+    technologies: 'Python, SeaBorn, Matplotlib, Pandas',
     link: 'https://example.com/project2',
   },
   {
