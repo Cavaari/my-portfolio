@@ -3,6 +3,7 @@
 import React from 'react';
 import './AboutMe.css';
 import Footer from '../Footer';
+import { Link } from 'react-router-dom';
 
 function AboutMe() {
   return (
@@ -44,7 +45,7 @@ function AboutMe() {
             
             "
           </p>
-          <a href="/Cavaari%20Taylor(Soft%20Eng%20Resume).pdf" target="_blank" rel="noopener noreferrer" className="resume-button">Resume</a>
+          <Link to="/Cavaari%20Taylor(Soft%20Eng%20Resume).pdf" target="_blank" rel="noopener noreferrer" className="resume-button">Resume</Link>
         </div>
       </div>
       <Footer />
