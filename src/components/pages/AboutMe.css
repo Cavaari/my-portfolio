@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   padding: 20px;
   padding-top: 60px;
   margin-top: 60px;
@@ -74,7 +74,6 @@
   background: url('/public/images/The moon.jpg') center center/cover no-repeat;
   height: 100vh;
   width: 100%;
-  position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
