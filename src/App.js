@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
 import Experience from './components/pages/Experience';
@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/my-portfolio' element={<Home />} />
         <Route path='/experience' element={<Experience />} />
         <Route path='/about me' element={<AboutMe />} />
         <Route path='/projects' element={<Projects />} />

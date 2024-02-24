@@ -28,7 +28,7 @@ function Navbar() {
       <>
         <nav className='navbar'>
           <div className='navbar-container'> 
-            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            <Link to='/my-portfolio' className='navbar-logo' onClick={closeMobileMenu}>
               Cavaari Taylor ©  
             </Link>
             <div className='menu-icon' onClick={handleClick}>
@@ -51,7 +51,7 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                  <a href='/Skills' className='nav-links' onClick={closeMobileMenu}>
+                  <a href='/skills' className='nav-links' onClick={closeMobileMenu}>
                           Skills
                       </a>
                 </li>
