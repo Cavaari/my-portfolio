@@ -32,7 +32,7 @@ function Footer() {
             <section className='social-media'>
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
-                        <a href='/' className='social-logo'>
+                        <a href='/my-portfolio' className='social-logo'>
                         ©
                         </a>
                     </div>
