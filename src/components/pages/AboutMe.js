@@ -13,7 +13,7 @@ function AboutMe() {
         <div className="about-content">
           <h1>About Cavaari</h1>
         <div className="profile-picture">
-          <img src="../images/Profile Photo.jpg" alt="Profile" />
+          <img src="./images/Profile Photo.jpg" alt="Profile" />
         </div>
           <p>
             "I am a dedicated fourth-year university student at the University of Guelph, majoring in Software Engineering
