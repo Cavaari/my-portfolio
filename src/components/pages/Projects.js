@@ -16,14 +16,14 @@ const projects = [
     title: 'Covid-19 Statistical Analysis',
     description: 'Reviewed, processed, analyzed, and plotted COVID-19 data ',
     technologies: 'Python, SeaBorn, Matplotlib, Pandas',
-    link: 'https://example.com/project2',
+    link: 'https://github.com/Cavaari/COVID-19-Analytical-Data',
   },
   {
     id: 3,
     title: 'React Website Using Node.js API',
     description: 'My Personal Portfolio using techniques which I possess.',
     technologies: 'React, Node.js, HTML, CSS',
-    link: 'https://example.com/project3',
+    link: 'https://cavaari.github.io/my-portfolio/',
   },
 ];
 

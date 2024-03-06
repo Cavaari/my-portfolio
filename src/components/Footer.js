@@ -12,7 +12,7 @@ function Footer() {
             Thank you for visiting my website!
             </p>
             <p className='footer-subscription-text'>
-            I am currently looking for a new Job opportunities in the Software Engineering.
+            I am currently looking for new job opportunities in the Software Engineering.
             </p>
         </section>
         <div className='footer-link-wrapper'>
