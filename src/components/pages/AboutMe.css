@@ -9,6 +9,11 @@
   padding: 20px;
   padding-top: 60px;
   margin-top: 60px;
+  border-radius: 8px;
+  max-width: 100ch;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .aboutMe-container h1 {
@@ -25,7 +30,7 @@
 }
 
 .aboutMe-container p {
-  color: #ffffff;
+  color: #000000;
   font-size: 16px;
   line-height: 1.5;
   margin-top: 10px;
@@ -35,8 +40,8 @@
   display: inline-block;
   margin-top: 15px;
   padding: 10px 20px;
-  background-color: #3498db;
-  color: #fff;
+  background-color: #09f405;
+  color: #000;
   text-decoration: none;
   font-size: 16px;
   border-radius: 5px;
@@ -44,8 +49,8 @@
 }
 
 .resume-button:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #09f405;
 }
 
 .about-content {
@@ -53,6 +58,7 @@
   border-radius: 15px;
   padding: 20px;
   text-align: center;
+  background-color: rgba(245, 245, 220, 0.9);
 }
 
 .profile-picture {
@@ -62,6 +68,8 @@
   border-radius: 50%;
   overflow: hidden;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .profile-picture img {
