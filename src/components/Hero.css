@@ -56,20 +56,21 @@
     color: #09f405;
     background: transparent;
     border-color: #091009;
+    border-radius: 8px;
 
 }
 
 .hero-btns .btn--outline {
-    background-color: transparent;
-    color: #09f405;
+    background-color: #09f405d3;
+    color: #000;
     border-color: #0a100a;
 }
 
 
 .hero-btns .btn--medium:hover,
 .hero-btns .btn--large:hover{
-    background: #ffffff;
-    color: #242424;
+    background: #000000c8;
+    color: #09f405;
     transition: all 0.3s ease-out;
 }
 
