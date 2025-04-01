@@ -1,25 +1,112 @@
-.coming-soon-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-    font-size: 100px;
-    font-family:'Times New Roman', Times, serif;
-    animation: wave 2s infinite linear;
-  }
-  
-    @keyframes wave {
-        0% { transform: translateY(0); }
-        50% { transform: translateY(-20px); }
-        100% { transform: translateY(0); }
-    }
+/* Background with Subtle Image Overlay */
+.experience-container {
+    min-height: 100vh;
+    padding: 80px 20px;
+    margin-top: 80px;
+    color: #fff;
+}
 
 .background {
-      background: url('/public/images/The moon.jpg') center center/cover no-repeat;
-      height: 100vh;
-      width: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 0;
+    background: url('/public/images/The moon.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+  
+    /* Subtle Overlay */
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.6);  /* Dark overlay for readability */
   }
+
+/* Section Styling */
+.experience-section {
+    margin-bottom: 60px;
+}
+
+.experience-section h2 {
+    font-size: 2.5rem;
+    color: #09f405;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* Icons */
+.icon {
+    font-size: 1.8rem;
+}
+
+/* Cards */
+.experience-card {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+}
+
+.experience-card h3 {
+    font-size: 1.5rem;
+    color: #3498db;
+}
+
+.experience-card p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.experience-card ul {
+    list-style: none;  /* Remove default bullet */
+    padding-left: 0;   /* Align list with card content */
+    margin-top: 20px;
+}
+
+.experience-card ul li {
+    position: relative;
+    padding-left: 30px;  /* Space for custom bullet icon */
+    line-height: 1.8;
+    font-size: 1.4rem;
+    color: #ffffff; /* White text for readability */
+    margin-top: -10px;
+}
+
+/* Custom Bullet Icon */
+.experience-card ul li::before {
+    content: '\2022';  /* Unicode for bullet point */
+    font-size: 1.5rem;
+    color: #09f405; /* Green bullet color */
+    position: absolute;
+    left: 0;
+    top: 4px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover Effect */
+.experience-card ul li:hover::before {
+    transform: scale(1.5); /* Slightly enlarge the bullet on hover */
+    color: #3498db;  /* Change to blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .experience-container {
+        padding: 60px 15px;
+    }
+    
+    .experience-card {
+        padding: 20px;
+    }
+}

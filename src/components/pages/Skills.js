@@ -5,7 +5,10 @@ import Footer from '../Footer';
 function Skills() {
   const skillsData = [
     { name: 'JavaScript', symbol: 'JS' },
+    { name: 'TypeScript', symbol: 'TS' },
     { name: 'React', symbol: 'R' },
+    { name: 'React Native CLI', symbol: 'RNC' },
+    { name: 'React Native Expo', symbol: 'RNE' },
     { name: 'HyperText Markup Language', symbol: 'HTML' },
     { name: 'Cascading Style Sheets', symbol: 'CSS' },
     { name: 'Node.js', symbol: 'N' },
@@ -18,6 +21,8 @@ function Skills() {
     { name: 'Git', symbol: 'G' },
     { name: 'GitHub', symbol: 'GH' },
     { name: 'Visual Studio Code', symbol: 'VSC' },
+    { name: 'Docker', symbol: 'D' },
+    { name: 'Firebase', symbol: 'F' },
     { name: 'IntelliJ', symbol: 'I' },
     { name: 'Postman', symbol: 'P' },
     { name: 'AutoDesk Fusion 360', symbol: 'F360' },
