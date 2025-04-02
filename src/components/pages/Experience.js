@@ -16,8 +16,10 @@ function Experience() {
             <div className="experience-card">
               <h3>University of Guelph – Software Engineering Projects</h3>
               <ul>
-                <li>Collaborated on multiple team projects, including:</li>
-                <li><strong>Course selection platform redesign</strong> addressing student feedback.</li>
+                <p>Collaborated on <strong>multiple team projects</strong>, including:</p>
+                <li><strong>Course selection platform redesign</strong></li>
+                <li><strong>Gaming website allowing for multiplayer functionality using web sockets</strong></li>
+                <li><strong>Social Media Mobile app redesign</strong></li>
                 <li>Applied Agile methodologies and full-stack development principles.</li>
               </ul>
             </div>
@@ -37,7 +39,15 @@ function Experience() {
               <h3>Freelance Web Development</h3>
               <ul>
                 <li>Developed a <strong>portfolio website</strong> highlighting personal projects and skills.</li>
-                <li>Utilized React.js, CSS, and Firebase for deployment.</li>
+                <li>Utilized React.js, CSS, and Github pages for deployment.</li>
+                <li>Improved site performance by optimizing rendering.</li>
+              </ul>
+            </div>
+            <div className="experience-card">
+              <h3>Mobile Web App Development</h3>
+              <ul>
+                <li>Developing a simple <strong>mobile web app</strong> highlighting hidden gems on the island of Saint Lucia and how to navigate to them.</li>
+                <li>Utilized React-Native CLI, Expo CLI, Firebase for authentication and database management, and Github pages for deployment.</li>
                 <li>Improved site performance by optimizing rendering.</li>
               </ul>
             </div>

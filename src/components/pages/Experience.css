@@ -1,4 +1,4 @@
-/* Background with Subtle Image Overlay */
+/* Experience.css */
 .experience-container {
     min-height: 100vh;
     padding: 80px 20px;
@@ -16,13 +16,11 @@
     margin: 0;
     padding: 0;
     z-index: -1;
-  
-    /* Subtle Overlay */
     background-blend-mode: overlay;
-    background-color: rgba(0, 0, 0, 0.6);  /* Dark overlay for readability */
+    background-color: rgba(0, 0, 0, 0.6);  /* Dark overlay */
   }
 
-/* Section Styling */
+
 .experience-section {
     margin-bottom: 60px;
 }
@@ -38,12 +36,10 @@
     /*text-decoration: underline;*/
 }
 
-/* Icons */
 .icon {
     font-size: 1.8rem;
 }
 
-/* Cards */
 .experience-card {
     background: rgba(0, 0, 0, 0.8);
     border-radius: 12px;
@@ -64,22 +60,22 @@
 }
 
 .experience-card p {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     line-height: 1.8;
 }
 
 .experience-card ul {
-    list-style: none;  /* Remove default bullet */
-    padding-left: 0;   /* Align list with card content */
+    list-style: none;  
+    padding-left: 0;   
     margin-top: 20px;
 }
 
 .experience-card ul li {
     position: relative;
-    padding-left: 30px;  /* Space for custom bullet icon */
+    padding-left: 30px;  
     line-height: 1.8;
     font-size: 1.4rem;
-    color: #ffffff; /* White text for readability */
+    color: #ffffff; 
     margin-top: -10px;
 }
 
@@ -96,11 +92,11 @@
 
 /* Hover Effect */
 .experience-card ul li:hover::before {
-    transform: scale(1.5); /* Slightly enlarge the bullet on hover */
-    color: #3498db;  /* Change to blue on hover */
+    transform: scale(1.5); 
+    color: #3498db;  
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .experience-container {
         padding: 60px 15px;

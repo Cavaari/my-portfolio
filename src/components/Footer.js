@@ -36,7 +36,7 @@ function Footer() {
                     ©
                     </a>
                 </div>
-                <small className='website-rights'>© 2024</small>
+                <small className='website-rights'>© 2025</small>
                 <div className='social-icons'>
                     <Link
                     class='social-icon-link github'
