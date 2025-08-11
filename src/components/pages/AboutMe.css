@@ -1,5 +1,3 @@
-/* AboutMe.css */
-
 .aboutMe-container {
   display: flex;
   flex-direction: column;
@@ -94,9 +92,9 @@
 /* Mobile View */
 @media screen and (max-width: 600px) {
   .aboutMe-container {
-    margin-top: 400px;
+    margin-top: 150px;
     padding: 10px;
-    margin-bottom: 275px;
+    margin-bottom: 100px;
   }
 
   .aboutMe-container h1 {

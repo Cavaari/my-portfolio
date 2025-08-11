@@ -1,105 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+:root {
+  --primary-color: #3498db;
+  --light-color: #ffffff;
+  --dark-text-color: #ecf0f1;
+  --font-main: 'Poppins', sans-serif;
+}
+
 .hero-container {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    object-fit: contain;
-
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../public/images/The moon.jpg') center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
 }
-
-.background {
-    background: url('C:/Users/cavaa/OneDrive/Documents/Website/my-portfolio/public/images/The moon.jpg') center center/cover no-repeat;
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background-blend-mode: overlay;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-
 
 .hero-container > h1 {
-    color: #ffffff;  
-    font-size: 100px;
-    margin-top: -100px;
-    display: flex;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-
-    align-self: center;
-    text-align: center;
+  font-family: var(--font-main);
+  color: var(--light-color);
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 0;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
 .hero-container > p {
-    margin-top: 8px;
-    color: #000000;  
-    font-size: 32px;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    align-self: center;
-    text-align: center;
+  font-family: var(--font-main);
+  color: var(--dark-text-color);
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  max-width: 650px;
 }
 
 .hero-btns {
-      margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .hero-btns .btn {
-    margin: 6px;
-    color: #09f405;
-    background: transparent;
-    border-color: #091009;
-    border-radius: 8px;
-
+  text-decoration: none;
+  border-radius: 4px;
 }
 
-.hero-btns .btn--outline {
-    background-color: #ffffff;
-    color: #000;
-    border-color: #0a100a;
+.btn--solid {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  border: 1px solid var(--primary-color);
 }
 
-
-.hero-btns .btn--medium:hover,
-.hero-btns .btn--large:hover{
-    background: #000000c8;
-    color: #09f405;
-    transition: all 0.3s ease-out;
+.btn--solid:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
-.fa-play-circle {
-    margin-left: 4px;
+.btn--outline {
+  background-color: transparent;
+  color: var(--light-color);
+  border: 1px solid var(--light-color);
 }
 
-@media screen and (max-width: 960px){
-    .hero-container > h1 {
-        font-size: 70px;
-        margin-top: -150px;
-    }  
+.btn--outline:hover {
+  background-color: var(--light-color);
+  color: #000;
 }
 
-@media screen and (max-width: 768px){
-    .hero-container > h1 {
-        font-size: 50px;
-        margin-top: -100px;
-    }
-    
-    .hero-container > p {
-        font-size: 30px;
-    }
+@media screen and (max-width: 960px) {
+  .hero-container > h1 {
+    font-size: 4rem;
+  }
+}
 
-    .btn-mobile {
-        display: block;
-        text-decoration: none;
-    }
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 3rem;
+  }
 
-    .btn {
-        width: 100%;
-    }
+  .hero-container > p {
+    font-size: 1.25rem;
+  }
 }
