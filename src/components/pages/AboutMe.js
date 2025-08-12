@@ -1,5 +1,3 @@
-// AboutMe.js
-
 import React from 'react';
 import './AboutMe.css';
 import Footer from '../Footer';
@@ -17,18 +15,19 @@ function AboutMe() {
 
         </div>
           <p>
-            "I am a dedicated fourth-year university student at the University of Guelph, majoring in Software Engineering
-            and minoring in Business. My journey as a software engineer began with a genuine passion for problem-solving, 
-            and it has since evolved into a profound commitment to pushing the boundaries of technology. Armed with a solid 
-            foundation in computer science learned at the university and a relentless curiosity, I thrive on transforming 
-            innovative ideas into robust, scalable, and efficient software solutions.
+            "I am a dedicated new Grad from the University of Guelph, majoring in Software Engineering
+            specializing in Front-End Development, Web Development and Mobile App Development whilst also minoring in Business. My journey 
+            as a software engineer began with a genuine passion for problem-solving, and it has since evolved into a profound 
+            commitment to pushing the boundaries of technology. Armed with a solid foundation in computer science learned at 
+            the university and a relentless curiosity, I thrive on transforming innovative ideas into robust, scalable, and 
+            efficient software solutions.
             
             <br></br>
             <br></br>
             Throughout my academic journey at the University of Guelph, I've had the privilege of delving deep into the 
             theoretical underpinnings of computer science while also gaining hands-on experience in practical applications
             and specifcally the technicalities of software design. My coursework has provided me with a strong understanding
-            of front-end development using languages such as HTML, CSS and Javascript combined with frameworks such as React
+            of front-end development using languages such as HTML, CSS and Javascript combined with frameworks such as React, React Native
             and Node.js, as well as a full understanding in back-end development and a comprehensive understanding in databases 
             using SQL. I have also gained a strong understanding of data structures and algorithmns and recently Artificial Intelligence 
             and I have consistently sought opportunities to apply this knowledge in real-world scenarios. As a fourth-year student, 
